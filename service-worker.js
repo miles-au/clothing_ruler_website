@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/clothing_ruler_website/precache-manifest.07456e470682a2ee4bcd6be698f7e879.js"
+  "/clothing_ruler_website/precache-manifest.2ff882184b4e07d29dad507e7dbe685c.js"
 );
 
 self.addEventListener('message', (event) => {
