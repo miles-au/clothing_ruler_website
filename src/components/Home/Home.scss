@@ -1,0 +1,19 @@
+@import 'src/index.scss';
+
+.home-page{
+    text-align: center;
+    h1{
+        font-weight: 400;
+    }
+}
+
+.badge-container{  
+    text-align: center;
+
+  .store-badge{
+    text-align: center;
+    margin: 10px;
+    width: 45%;
+    min-width: 200px; 
+  }
+}
