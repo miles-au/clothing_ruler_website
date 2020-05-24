@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/clothing_ruler_website/static/css/main.0d0eb7b5.chunk.css",
+    "main.js": "/clothing_ruler_website/static/js/main.1d4bda0d.chunk.js",
+    "main.js.map": "/clothing_ruler_website/static/js/main.1d4bda0d.chunk.js.map",
+    "runtime-main.js": "/clothing_ruler_website/static/js/runtime-main.f6a588c6.js",
+    "runtime-main.js.map": "/clothing_ruler_website/static/js/runtime-main.f6a588c6.js.map",
+    "static/js/2.109e6b3d.chunk.js": "/clothing_ruler_website/static/js/2.109e6b3d.chunk.js",
+    "static/js/2.109e6b3d.chunk.js.map": "/clothing_ruler_website/static/js/2.109e6b3d.chunk.js.map",
+    "index.html": "/clothing_ruler_website/index.html",
+    "precache-manifest.07456e470682a2ee4bcd6be698f7e879.js": "/clothing_ruler_website/precache-manifest.07456e470682a2ee4bcd6be698f7e879.js",
+    "service-worker.js": "/clothing_ruler_website/service-worker.js",
+    "static/css/main.0d0eb7b5.chunk.css.map": "/clothing_ruler_website/static/css/main.0d0eb7b5.chunk.css.map",
+    "static/js/2.109e6b3d.chunk.js.LICENSE.txt": "/clothing_ruler_website/static/js/2.109e6b3d.chunk.js.LICENSE.txt",
+    "static/media/google_badge.png": "/clothing_ruler_website/static/media/google_badge.6065204a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6a588c6.js",
+    "static/js/2.109e6b3d.chunk.js",
+    "static/css/main.0d0eb7b5.chunk.css",
+    "static/js/main.1d4bda0d.chunk.js"
+  ]
+}
