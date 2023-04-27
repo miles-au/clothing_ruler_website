@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/clothing_ruler_website/static/css/main.697e2e1f.css",
-    "main.js": "/clothing_ruler_website/static/js/main.78c009ba.js",
+    "main.js": "/clothing_ruler_website/static/js/main.bac37913.js",
     "static/media/google_badge.png": "/clothing_ruler_website/static/media/google_badge.c590d459b8086fd71761.png",
     "index.html": "/clothing_ruler_website/index.html",
     "main.697e2e1f.css.map": "/clothing_ruler_website/static/css/main.697e2e1f.css.map",
-    "main.78c009ba.js.map": "/clothing_ruler_website/static/js/main.78c009ba.js.map"
+    "main.bac37913.js.map": "/clothing_ruler_website/static/js/main.bac37913.js.map"
   },
   "entrypoints": [
     "static/css/main.697e2e1f.css",
-    "static/js/main.78c009ba.js"
+    "static/js/main.bac37913.js"
   ]
 }
