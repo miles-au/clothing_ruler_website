@@ -1,23 +1,14 @@
 {
   "files": {
-    "main.css": "/clothing_ruler_website/static/css/main.0d0eb7b5.chunk.css",
-    "main.js": "/clothing_ruler_website/static/js/main.aa4fe600.chunk.js",
-    "main.js.map": "/clothing_ruler_website/static/js/main.aa4fe600.chunk.js.map",
-    "runtime-main.js": "/clothing_ruler_website/static/js/runtime-main.f6a588c6.js",
-    "runtime-main.js.map": "/clothing_ruler_website/static/js/runtime-main.f6a588c6.js.map",
-    "static/js/2.1838088c.chunk.js": "/clothing_ruler_website/static/js/2.1838088c.chunk.js",
-    "static/js/2.1838088c.chunk.js.map": "/clothing_ruler_website/static/js/2.1838088c.chunk.js.map",
+    "main.css": "/clothing_ruler_website/static/css/main.697e2e1f.css",
+    "main.js": "/clothing_ruler_website/static/js/main.78c009ba.js",
+    "static/media/google_badge.png": "/clothing_ruler_website/static/media/google_badge.c590d459b8086fd71761.png",
     "index.html": "/clothing_ruler_website/index.html",
-    "precache-manifest.2ff882184b4e07d29dad507e7dbe685c.js": "/clothing_ruler_website/precache-manifest.2ff882184b4e07d29dad507e7dbe685c.js",
-    "service-worker.js": "/clothing_ruler_website/service-worker.js",
-    "static/css/main.0d0eb7b5.chunk.css.map": "/clothing_ruler_website/static/css/main.0d0eb7b5.chunk.css.map",
-    "static/js/2.1838088c.chunk.js.LICENSE.txt": "/clothing_ruler_website/static/js/2.1838088c.chunk.js.LICENSE.txt",
-    "static/media/google_badge.png": "/clothing_ruler_website/static/media/google_badge.6065204a.png"
+    "main.697e2e1f.css.map": "/clothing_ruler_website/static/css/main.697e2e1f.css.map",
+    "main.78c009ba.js.map": "/clothing_ruler_website/static/js/main.78c009ba.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f6a588c6.js",
-    "static/js/2.1838088c.chunk.js",
-    "static/css/main.0d0eb7b5.chunk.css",
-    "static/js/main.aa4fe600.chunk.js"
+    "static/css/main.697e2e1f.css",
+    "static/js/main.78c009ba.js"
   ]
 }
