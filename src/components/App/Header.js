@@ -7,7 +7,7 @@ const Header = ({ isLoggedIn }) => {
         <header>
             <Link className="logo-link" to={ROUTES.HOME}>
                 <div className="logo">
-                    <img className="logo-icon" src={require('./logo-transparent.png')} alt='Clothing Ruler Logo' />
+                    <img className="logo-icon" src={require('./icon.png')} alt='Clothing Ruler Logo' />
                     <h1 className="logo-text">Clothing Ruler</h1>
                 </div>
             </Link>

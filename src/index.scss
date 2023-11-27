@@ -1,15 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
 // colors
-$BrandOpal: #93B7BE;
-$BrandCadet: #586F7C;
-
-.brandOpal{
-  color: $BrandOpal
-}
-.brandOpal-bg{
-  background-color: $BrandOpal
-}
+$BrandCadet: #27333B;
 
 .brandCadet{
   color: $BrandCadet
@@ -35,10 +27,6 @@ h1{
 
 h2{
   color: #ffffff;
-}
-
-a, span{
-  color: $BrandOpal;
 }
 
 body {
