@@ -9,9 +9,6 @@ const HomePage = () => (
                 <a href="/" target="_blank" className="store-badge">
                     <img className="store-badge-img" src={require('./apple_badge.png')} alt="download on the app store" />
                 </a>
-                <a href="/" target="_blank" className="store-badge">
-                    <img className="store-badge-img" src={require('./google_badge.png')} alt="get it on google play" />
-                </a>
             </div>
         </section>
     </div>
