@@ -1,0 +1,14 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "H6W2DP26MF.com.milesau.clothingruler" ],
+             "components": [
+               {
+                  "/": "/*"
+               }
+             ]
+           }
+       ]
+   }
+}

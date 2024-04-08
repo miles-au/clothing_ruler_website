@@ -23,7 +23,7 @@ function PrivacyPolicy() {
             <ul>
               <li>Usage Data: We collect information about how you interact with the App, such as the features you use and the time spent on different sections.</li>
               <li>Device Information: We may collect information about your device, including the device model, operating system version, unique device identifiers, and mobile network information.</li>
-              <li>Firebase Analytics: We use Firebase Analytics, a third-party service provided by Google, to collect and analyze usage data. This may include information about in-app events, errors, and other interactions.</li>
+              <li>Analytics: We use a third-party service to collect and analyze usage data. This may include information about in-app events, errors, and other interactions.</li>
             </ul>
 
             <p>We use the collected information for the following purposes:</p>
@@ -31,7 +31,7 @@ function PrivacyPolicy() {
             <ul>
               <li>To Improve the App: We analyze usage data to understand how users interact with the App, identify areas for improvement, and enhance the overall user experience.</li>
               <li>To Provide Support: Collected information may be used to respond to user inquiries, provide technical support, and address issues with the App.</li>
-              <li>Analytics: We use Firebase Analytics to gain insights into user behavior and improve the App's performance and features.</li>
+              <li>Analytics: We use a third-party analytics service to gain insights into user behavior and improve the App's performance and features.</li>
             </ul>
 
             <p>We do not sell or share your personally identifiable information with third parties. However, we may share aggregated, non-personally identifiable information for analytical purposes.</p>
