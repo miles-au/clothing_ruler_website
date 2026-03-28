@@ -17,8 +17,8 @@ const featureGroups = [
         description: 'Measure chest, length, inseam, sleeve, and more by capturing the distance between two points on your screen.',
     },
     {
-        title: 'Measurement Library',
-        description: 'Use guided diagrams for shirts, pants, jackets, dresses, and more so every measurement is taken the same way every time.',
+        title: 'Chrome Extension',
+        description: 'Move faster in your browser by carrying Klothes item data into marketplace listing forms and cutting down on copy and paste.',
     },
     {
         title: 'Photo Markers',
@@ -88,20 +88,12 @@ const HomePage = () => (
             <div className="hero-side-column">
                 <div className="hero-card marketplaces-section hero-marketplaces">
                     <p className="section-label">Designed for marketplaces like</p>
-                    <div className="marketplace-list">
-                        {marketplaces.map((marketplace) => (
-                            <span className="marketplace-pill" key={marketplace}>{marketplace}</span>
-                        ))}
-                    </div>
-                    <div className="marketplace-actions">
-                        <a href={APP_STORE_URL} target="_blank" rel="noreferrer" className="inline-link">
-                            Get the iOS app
-                        </a>
-                        <a href={CHROME_EXTENSION_URL} target="_blank" rel="noreferrer" className="inline-link">
-                            Get the Chrome extension
-                        </a>
-                    </div>
+                <div className="marketplace-list">
+                    {marketplaces.map((marketplace) => (
+                        <span className="marketplace-pill" key={marketplace}>{marketplace}</span>
+                    ))}
                 </div>
+            </div>
 
                 <div className="extension-section">
                     <div className="extension-card extension-card-merged">
@@ -112,6 +104,11 @@ const HomePage = () => (
                             The Chrome extension helps carry that work into your browser so you can skip
                             copy and paste when it is time to list.
                         </p>
+                        <img
+                            className="chrome-extension-badge"
+                            src="/media/logos/chrome_extension_badge.png"
+                            alt="Available in the Chrome Web Store"
+                        />
                         <a href={CHROME_EXTENSION_URL} target="_blank" rel="noreferrer" className="cta-link">
                             View Chrome Extension
                         </a>

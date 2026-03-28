@@ -106,13 +106,6 @@
     padding: 1.5rem;
 }
 
-.marketplace-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.85rem;
-    margin-top: 1rem;
-}
-
 .marketplace-list {
     display: flex;
     flex-wrap: wrap;
@@ -126,18 +119,6 @@
     color: $TextBright;
     display: inline-flex;
     padding: 0.7rem 1rem;
-}
-
-.inline-link {
-    border-bottom: 1px solid rgba(124, 245, 213, 0.45);
-    color: $BrandMint;
-    display: inline-flex;
-    padding-bottom: 0.12rem;
-    text-decoration: none;
-}
-
-.inline-link:hover {
-    border-bottom-color: rgba(124, 245, 213, 0.85);
 }
 
 .features-intro h3,
@@ -237,6 +218,13 @@
 
 .extension-card-merged {
     width: 100%;
+}
+
+.chrome-extension-badge {
+    display: block;
+    height: auto;
+    margin: 1.25rem 0 1rem;
+    max-width: 220px;
 }
 
 .cta-section {
