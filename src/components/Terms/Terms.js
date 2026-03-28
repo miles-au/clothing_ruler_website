@@ -4,42 +4,72 @@ function Terms() {
     return (
         <div className="terms-page container">
             <section>
-                <p className="page-kicker">Klothes App</p>
+                <p className="page-kicker">SwiftyIndie</p>
                 <h2>Terms and Conditions</h2>
             </section>
 
             <section>
-                <p>By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Kyle Au.</p>
-
-                <p>We are committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.</p>
-
-                <p>To the maximum extent permitted by applicable law, in no event shall We be liable for any indirect, punitive, incidental, special, consequential, or exemplary damages, including without limitation, damages for loss of profits, goodwill, use, data, or other intangible losses, arising out of or relating to the use of, or inability to use, the App.</p>
-
-                <p>The App is provided "as is" without any warranties, express or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
-
-                <p>It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the Clothing Ruler app won’t work properly or at all.</p>
-
-                <p>You should be aware that there are certain things that we will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.</p>
-
-                <p>If you’re using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing the app, or other third party charges. In using the app, you’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you’re using the app, please be aware that we assume that you have received permission from the bill payer for using the app.</p>
-
-                <p>Along the same lines, we cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service, we cannot accept responsibility</p>
-
-                <p>With respect to our responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. We accept no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.</p>
-
-                <p>At some point, we may wish to update the app. The app is currently available on iOS – the requirements for this system(and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. We do not promise that it will always update the app so that it is relevant to you and/or works with the iOS version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.</p>
-
+                <p>
+                    These Terms and Conditions apply to mobile applications and related services
+                    published by Kyle Au through SwiftyIndie, unless a specific app includes its own
+                    separate terms.
+                </p>
+                <p>
+                    By downloading, installing, accessing, or using any of our apps, you agree to
+                    these Terms and Conditions. If you do not agree, do not use the app.
+                </p>
+                <p>
+                    We grant you a limited, non-exclusive, non-transferable, revocable license to use
+                    our apps for your personal, lawful use. You may not copy, modify, distribute,
+                    sell, reverse engineer, decompile, or attempt to extract the source code of any
+                    app except where applicable law expressly permits it.
+                </p>
+                <p>
+                    All intellectual property rights in the apps, including software, text, graphics,
+                    branding, and related content, remain the property of Kyle Au or the relevant
+                    licensors.
+                </p>
+                <p>
+                    We may update, change, suspend, or discontinue any app or feature at any time,
+                    with or without notice. Some apps may be offered for free, and some may include
+                    paid features now or in the future. If we charge for any feature, we will make
+                    that clear before you are asked to pay.
+                </p>
+                <p>
+                    Paid access, premium features, and subscription entitlements may change, be
+                    suspended, or end if a subscription expires, is canceled, is refunded, or if the
+                    applicable app or feature is discontinued.
+                </p>
+                <p>
+                    You are responsible for your device, internet access, mobile carrier charges, and
+                    keeping your software up to date. Some features may not work properly without a
+                    supported device, internet connection, or current operating system version.
+                </p>
+                <p>
+                    You agree not to misuse our apps, interfere with their normal operation, attempt
+                    unauthorized access to any systems or data, or use the apps in a way that violates
+                    applicable law or the rights of others.
+                </p>
+                <p>
+                    Some apps may rely on third-party services, such as app stores, analytics
+                    providers, crash reporting tools, hosting providers, or internet service
+                    providers. We are not responsible for outages, failures, pricing changes, or
+                    policies of those third parties.
+                </p>
+                <p>
+                    You may stop using an app at any time by uninstalling it. We may suspend or
+                    terminate your access if you violate these terms or if we decide to discontinue an
+                    app.
+                </p>
             </section>
 
             <section>
-                <h2>Measurements</h2>
-                <p>The Clothing Ruler app features an Augmented Reality ruler function which allows users to take Measurements. Although we try our best to make these Measurements as accurate as possible, the accuracy of these measurements cannot be guaranteed. We accept no liability for any loss, direct or indirect, you experience should you depend on the Measurements.</p>
-            </section>
-
-            <section>
-                <h2>Changes to This Terms and Conditions</h2>
-                <p>We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page.</p>
-                <p>These terms and conditions are effective as of July 30, 2025.</p>
+                <h3>Changes to This Terms and Conditions</h3>
+                <p>
+                    We may update these Terms and Conditions from time to time. When we do, we will
+                    post the updated version on this page. Your continued use of an app after the
+                    updated terms become effective means you accept the revised terms.
+                </p>
             </section>
         </div>
     );

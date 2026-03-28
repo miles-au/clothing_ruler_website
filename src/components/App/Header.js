@@ -7,9 +7,8 @@ const Header = () => {
         <header className="site-header">
             <Link className="logo-link" to={ROUTES.HOME} aria-label="Klothes home">
                 <div className="logo">
-                    <img className="logo-icon" src={require('./icon.png')} alt='Klothes logo' />
+                    <img className="logo-icon" src="/media/logos/klothes-icon-light.png" alt='Klothes logo' />
                     <div>
-                        <p className="logo-kicker">Klothes App</p>
                         <h1 className="logo-text">Klothes</h1>
                     </div>
                 </div>

@@ -4,61 +4,72 @@ function PrivacyPolicy() {
     return (
         <div className="privacy-policy-page container">
             <section>
-                <p className="page-kicker">Klothes App</p>
+                <p className="page-kicker">SwiftyIndie</p>
                 <h2>Privacy Policy</h2>
             </section>
 
             <section>
                 <p>
-                    This Privacy Policy explains how Kyle Au ("us," "we," or "our") collects, uses,
-                    and discloses information obtained through the "Clothing Ruler" mobile
-                    application ("the App") when you use our services.
+                    This Privacy Policy applies to mobile applications and related services published
+                    by Kyle Au through SwiftyIndie, unless a specific app includes its own separate
+                    privacy policy.
+                </p>
+                <p>
+                    We try to collect as little information as possible. Most apps do not require you
+                    to create an account, and we do not intentionally collect information that directly
+                    identifies you, such as your name, mailing address, or government-issued
+                    identifiers, unless you choose to contact us directly.
+                </p>
+                <p>
+                    If we send customer attributes or identifiers to RevenueCat or related services,
+                    those may include information such as an internal user ID, email address, or other
+                    data you choose to provide, but only where needed for account, purchase, support,
+                    or subscription functionality.
+                </p>
+                <p>
+                    We do not use analytics data to personally identify you, and we do not sell your
+                    personal information.
+                </p>
+                <p>
+                    If you email us for support or feedback, we will receive the information you
+                    choose to include in your message, such as your email address and the contents of
+                    your request. We use that information only to respond to you and manage the
+                    conversation.
+                </p>
+                <p>
+                    Some apps may store data locally on your device, such as preferences, settings,
+                    saved items, or app state. That data is generally controlled by you and remains on
+                    your device unless a feature clearly tells you otherwise.
+                </p>
+                <p>
+                    We keep information only for as long as reasonably necessary for the purposes
+                    described in this policy, including maintaining the app, improving performance,
+                    complying with legal obligations, and resolving disputes.
+                </p>
+                <p>
+                    Our apps are not directed to children under 13, and we do not knowingly collect
+                    personal information from children under 13. If you believe a child has provided
+                    us personal information, please contact us so we can review and delete it if
+                    appropriate.
                 </p>
             </section>
 
             <section>
-                <h3>Information We Collect</h3>
-
-                <p>We may collect certain information when you use the App, including but not limited to:</p>
-
-                <ul>
-                    <li>Usage Data: We collect information about how you interact with the App, such as the features you use and the time spent on different sections.</li>
-                    <li>Device Information: We may collect information about your device, including the device model, operating system version, unique device identifiers, and mobile network information.</li>
-                    <li>Analytics: We use a third-party service to collect and analyze usage data. This may include information about in-app events, errors, and other interactions.</li>
-                </ul>
-
-                <p>We use the collected information for the following purposes:</p>
-
-                <ul>
-                    <li>To Improve the App: We analyze usage data to understand how users interact with the App, identify areas for improvement, and enhance the overall user experience.</li>
-                    <li>To Provide Support: Collected information may be used to respond to user inquiries, provide technical support, and address issues with the App.</li>
-                    <li>Analytics: We use a third-party analytics service to gain insights into user behavior and improve the App's performance and features.</li>
-                </ul>
-
-                <p>We do not sell or share your personally identifiable information with third parties. However, we may share aggregated, non-personally identifiable information for analytical purposes.</p>
-
-            </section>
-
-            <section>
-                <h3>Security</h3>
-
-                <p>We take reasonable measures to protect the information we collect from unauthorized access, disclosure, alteration, or destruction.</p>
-
+                <h3>Contact Us</h3>
+                <p>
+                    If you have any questions about this Privacy Policy, please contact us at{' '}
+                    <a href="mailto:miles.d.au@gmail.com">miles.d.au@gmail.com</a>.
+                </p>
             </section>
 
             <section>
                 <h3>Changes to This Privacy Policy</h3>
-
-                <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
-
+                <p>
+                    We may update this Privacy Policy from time to time. When we do, we will post the
+                    updated version on this page. Your continued use of an app after an update becomes
+                    effective means you accept the revised policy.
+                </p>
             </section>
-
-            <section>
-                <h3>Contact Us</h3>
-
-                <p>If you have any questions about this Privacy Policy or the use of your data, please contact us at <a href="mailto:miles.d.au@gmail.com">miles.d.au@gmail.com</a>.</p>
-            </section>
-
         </div>
     );
 }

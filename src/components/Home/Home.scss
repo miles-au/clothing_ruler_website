@@ -13,7 +13,11 @@
 
 .hero-copy,
 .hero-card,
+.marketplaces-section,
+.highlight-card,
+.story-block,
 .feature-card,
+.proof-card,
 .cta-section {
     background: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.12);
@@ -44,8 +48,14 @@
     color: $TextMuted;
     font-size: 1.05rem;
     line-height: 1.7;
-    margin: 1.5rem 0 2rem;
+    margin: 1.5rem 0 1rem;
     max-width: 34rem;
+}
+
+.hero-supporting {
+    color: $TextBright;
+    font-size: 1rem;
+    margin: 0 0 2rem;
 }
 
 .hero-card {
@@ -82,32 +92,237 @@
     margin-right: 0.65rem;
 }
 
-.features-section {
+.section-label {
+    color: $BrandMint;
+    font-size: 0.85rem;
+    letter-spacing: 0.16em;
+    margin: 0 0 0.8rem;
+    text-transform: uppercase;
+}
+
+.marketplaces-section {
+    padding: 1.5rem;
+}
+
+.marketplace-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    margin-top: 1rem;
+}
+
+.marketplace-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.marketplace-pill {
+    background: rgba(124, 245, 213, 0.12);
+    border: 1px solid rgba(124, 245, 213, 0.24);
+    border-radius: 999px;
+    color: $TextBright;
+    display: inline-flex;
+    padding: 0.7rem 1rem;
+}
+
+.inline-link {
+    border-bottom: 1px solid rgba(124, 245, 213, 0.45);
+    color: $BrandMint;
+    display: inline-flex;
+    padding-bottom: 0.12rem;
+    text-decoration: none;
+}
+
+.inline-link:hover {
+    border-bottom-color: rgba(124, 245, 213, 0.85);
+}
+
+.highlights-section {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-.feature-card {
-    min-height: 160px;
+.highlight-card {
+    min-height: 180px;
     padding: 1.5rem;
+}
+
+.highlight-card p {
+    color: $TextBright;
+    font-size: 1.08rem;
+    line-height: 1.65;
+    margin: 0;
+}
+
+.story-section {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.story-block {
+    padding: 1.75rem;
+}
+
+.story-block h3,
+.features-intro h3,
+.cta-section h3 {
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    line-height: 1.1;
+    margin: 0 0 1rem;
+}
+
+.story-list {
+    display: grid;
+    gap: 0.8rem;
+    margin: 0;
+}
+
+.features-section {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.features-intro {
+    max-width: 54rem;
+}
+
+.features-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.feature-card {
+    min-height: 220px;
+    padding: 1.5rem;
+}
+
+.feature-card h4 {
+    color: $TextBright;
+    font-size: 1.2rem;
+    margin: 0 0 0.8rem;
 }
 
 .feature-card p {
     color: $TextBright;
-    font-size: 1.15rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.65;
     margin: 0;
 }
 
+.proof-section {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.proof-card {
+    padding: 1.5rem;
+}
+
+.screenshots-section {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.screenshots-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.screenshot-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 30px;
+    box-shadow: 0 24px 60px rgba(7, 13, 18, 0.28);
+    overflow: hidden;
+}
+
+.screenshot-image {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.screenshot-caption {
+    padding: 1.2rem 1.2rem 1.35rem;
+}
+
+.screenshot-title {
+    color: $TextBright;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.screenshot-copy {
+    color: $TextMuted;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0.7rem 0 0;
+}
+
+.extension-section {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.extension-copy,
+.extension-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 28px;
+    box-shadow: 0 24px 60px rgba(7, 13, 18, 0.28);
+    padding: 1.75rem;
+}
+
+.extension-badge {
+    color: $BrandMint;
+    font-size: 0.85rem;
+    letter-spacing: 0.14em;
+    margin: 0 0 0.9rem;
+    text-transform: uppercase;
+}
+
+.extension-logo {
+    display: block;
+    height: 72px;
+    margin-bottom: 1rem;
+    width: 72px;
+}
+
+.extension-name {
+    color: $TextBright;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin: 0 0 0.8rem;
+}
+
+.extension-body {
+    margin: 0 0 1.5rem;
+}
+
 .cta-section {
-    padding: 2rem;
+    padding: 2.25rem;
     text-align: center;
 }
 
 .cta-section p {
     color: $TextMuted;
-    margin: 0 0 1rem;
+    margin: 0 auto 1rem;
+    max-width: 42rem;
+}
+
+.cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
 }
 
 .cta-link {
@@ -122,6 +337,16 @@
 
 .cta-link:hover {
     background: #e8fff7;
+}
+
+.cta-link-secondary {
+    background: transparent;
+    border: 1px solid rgba(124, 245, 213, 0.35);
+    color: $TextBright;
+}
+
+.cta-link-secondary:hover {
+    background: rgba(255, 255, 255, 0.08);
 }
 
 .badge-container {
@@ -145,11 +370,24 @@
 @media (max-width: 640px) {
     .hero-copy,
     .hero-card,
+    .story-block,
+    .proof-card,
+    .extension-copy,
+    .extension-card,
     .cta-section {
         padding: 1.5rem;
     }
 
     .hero-copy h2 {
         max-width: none;
+    }
+
+    .cta-actions {
+        flex-direction: column;
+    }
+
+    .cta-link {
+        justify-content: center;
+        width: 100%;
     }
 }
