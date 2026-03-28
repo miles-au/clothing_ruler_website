@@ -11,13 +11,15 @@
     align-items: stretch;
 }
 
+.hero-side-column {
+    display: grid;
+    gap: 2rem;
+}
+
 .hero-copy,
 .hero-card,
 .marketplaces-section,
-.highlight-card,
-.story-block,
 .feature-card,
-.proof-card,
 .cta-section {
     background: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.12);
@@ -138,46 +140,11 @@
     border-bottom-color: rgba(124, 245, 213, 0.85);
 }
 
-.highlights-section {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-}
-
-.highlight-card {
-    min-height: 180px;
-    padding: 1.5rem;
-}
-
-.highlight-card p {
-    color: $TextBright;
-    font-size: 1.08rem;
-    line-height: 1.65;
-    margin: 0;
-}
-
-.story-section {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-}
-
-.story-block {
-    padding: 1.75rem;
-}
-
-.story-block h3,
 .features-intro h3,
 .cta-section h3 {
     font-size: clamp(1.6rem, 3vw, 2.4rem);
     line-height: 1.1;
     margin: 0 0 1rem;
-}
-
-.story-list {
-    display: grid;
-    gap: 0.8rem;
-    margin: 0;
 }
 
 .features-section {
@@ -211,16 +178,6 @@
     font-size: 1rem;
     line-height: 1.65;
     margin: 0;
-}
-
-.proof-section {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-}
-
-.proof-card {
-    padding: 1.5rem;
 }
 
 .screenshots-section {
@@ -267,12 +224,9 @@
 }
 
 .extension-section {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    display: block;
 }
 
-.extension-copy,
 .extension-card {
     background: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.12);
@@ -281,30 +235,8 @@
     padding: 1.75rem;
 }
 
-.extension-badge {
-    color: $BrandMint;
-    font-size: 0.85rem;
-    letter-spacing: 0.14em;
-    margin: 0 0 0.9rem;
-    text-transform: uppercase;
-}
-
-.extension-logo {
-    display: block;
-    height: 72px;
-    margin-bottom: 1rem;
-    width: 72px;
-}
-
-.extension-name {
-    color: $TextBright;
-    font-size: 1.4rem;
-    line-height: 1.2;
-    margin: 0 0 0.8rem;
-}
-
-.extension-body {
-    margin: 0 0 1.5rem;
+.extension-card-merged {
+    width: 100%;
 }
 
 .cta-section {
@@ -370,9 +302,6 @@
 @media (max-width: 640px) {
     .hero-copy,
     .hero-card,
-    .story-block,
-    .proof-card,
-    .extension-copy,
     .extension-card,
     .cta-section {
         padding: 1.5rem;
