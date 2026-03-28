@@ -15,11 +15,15 @@ import ContactUs from '../ContactUs/ContactUs';
 function App() {
   return (
     <HashRouter basename='/'>
-      <Header />
-      <Route exact path={ROUTES.HOME} component={HomePage} />
-      <Route path={ROUTES.PRIVACY_POLICY} component={PrivacyPolicy} />
-      <Route path={ROUTES.TERMS} component={Terms} />
-      <Route path={ROUTES.CONTACT_US} component={ContactUs} />
+      <div className="App">
+        <Header />
+        <main>
+          <Route exact path={ROUTES.HOME} component={HomePage} />
+          <Route path={ROUTES.PRIVACY_POLICY} component={PrivacyPolicy} />
+          <Route path={ROUTES.TERMS} component={Terms} />
+          <Route path={ROUTES.CONTACT_US} component={ContactUs} />
+        </main>
+      </div>
     </HashRouter>
   );
 }

@@ -3,8 +3,9 @@ import React from 'react';
 function Terms() {
     return (
         <div className="terms-page container">
-            <section className="mw5 mw7-ns pa3 ph5-ns">
-                <h1>Terms and Conditions</h1>
+            <section>
+                <p className="page-kicker">Klothes App</p>
+                <h2>Terms and Conditions</h2>
             </section>
 
             <section>
@@ -38,11 +39,10 @@ function Terms() {
             <section>
                 <h2>Changes to This Terms and Conditions</h2>
                 <p>We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page.</p>
-                <p>These terms and conditions are effective as of November 27, 2023</p>
+                <p>These terms and conditions are effective as of July 30, 2025.</p>
             </section>
         </div>
     );
 }
 
 export default Terms;
-

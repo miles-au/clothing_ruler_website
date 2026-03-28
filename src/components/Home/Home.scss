@@ -1,20 +1,155 @@
 @import 'src/index.scss';
 
 .home-page {
+    display: grid;
+    gap: 2rem;
+}
+
+.hero-section {
+    display: grid;
+    gap: 2rem;
+    align-items: stretch;
+}
+
+.hero-copy,
+.hero-card,
+.feature-card,
+.cta-section {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 28px;
+    box-shadow: 0 24px 60px rgba(7, 13, 18, 0.28);
+}
+
+.hero-copy {
+    padding: 2.5rem;
+}
+
+.eyebrow {
+    color: $BrandMint;
+    font-size: 0.9rem;
+    letter-spacing: 0.18em;
+    margin: 0 0 1rem;
+    text-transform: uppercase;
+}
+
+.hero-copy h2 {
+    font-size: clamp(2.5rem, 6vw, 4.75rem);
+    line-height: 0.95;
+    margin: 0;
+    max-width: 11ch;
+}
+
+.hero-body {
+    color: $TextMuted;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin: 1.5rem 0 2rem;
+    max-width: 34rem;
+}
+
+.hero-card {
+    padding: 2rem;
+}
+
+.hero-card-label {
+    color: $BrandMint;
+    font-size: 0.95rem;
+    letter-spacing: 0.12em;
+    margin: 0 0 1.25rem;
+    text-transform: uppercase;
+}
+
+.hero-checklist {
+    display: grid;
+    gap: 0.9rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-checklist li {
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 18px;
+    color: $TextBright;
+    padding: 1rem 1.1rem;
+    position: relative;
+}
+
+.hero-checklist li::before {
+    color: $BrandMint;
+    content: '•';
+    margin-right: 0.65rem;
+}
+
+.features-section {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.feature-card {
+    min-height: 160px;
+    padding: 1.5rem;
+}
+
+.feature-card p {
+    color: $TextBright;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.cta-section {
+    padding: 2rem;
     text-align: center;
-    h1{
-        font-weight: 400;
+}
+
+.cta-section p {
+    color: $TextMuted;
+    margin: 0 0 1rem;
+}
+
+.cta-link {
+    color: $BrandCadet;
+    background: $BrandMint;
+    border-radius: 999px;
+    display: inline-flex;
+    font-weight: 700;
+    padding: 0.95rem 1.5rem;
+    text-decoration: none;
+}
+
+.cta-link:hover {
+    background: #e8fff7;
+}
+
+.badge-container {
+    text-align: left;
+
+    .store-badge {
+        display: inline-flex;
+
+        img {
+            height: 62px;
+        }
     }
 }
 
-.badge-container {  
-    text-align: center;
-
-  .store-badge {
-    margin: 10px;
-
-    img {
-      height: 75px;
+@media (min-width: 900px) {
+    .hero-section {
+        grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.9fr);
     }
-  }
+}
+
+@media (max-width: 640px) {
+    .hero-copy,
+    .hero-card,
+    .cta-section {
+        padding: 1.5rem;
+    }
+
+    .hero-copy h2 {
+        max-width: none;
+    }
 }

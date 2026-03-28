@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
 
 // colors
 $BrandCadet: #27333B;
+$BrandMint: #7cf5d5;
+$TextBright: #f6fbff;
+$TextMuted: #b9cad2;
 
 .brandCadet{
   color: $BrandCadet
@@ -17,25 +20,51 @@ $defaultPadding: 10px 20px;
 
 // fonts
 h1, h2, h3, h4, h5, h6, p, a, ul, li, span{
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
+  font-family: 'Manrope', sans-serif;
+  color: $TextBright;
 }
 
 h1{
-  color: #ffffff;
+  color: $TextBright;
 }
 
 h2{
-  color: #ffffff;
+  color: $TextBright;
+}
+
+h3{
+  color: $TextBright;
+  font-size: 1.15rem;
+  margin-bottom: 0.8rem;
 }
 
 body {
-  background-color: $BrandCadet;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $BrandMint;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+li, p {
+  color: $TextMuted;
+  line-height: 1.75;
+}
+
 section {
-  padding: 30px 20px 30px 20px;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
 }

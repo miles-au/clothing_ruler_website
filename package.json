@@ -1,5 +1,5 @@
 {
-  "name": "clothing_ruler_react",
+  "name": "klothes-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,7 +36,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://clothingruler.com",
+  "homepage": "https://www.klothes.app",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
